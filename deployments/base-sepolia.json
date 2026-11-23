@@ -1,0 +1,31 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "contract": "LastWord",
+  "address": "0xB1d1496a5B6cd853f1e472539Af05B0c81C07c6C",
+  "admin": "0xc609fE605C19489De8AcfDe07F76C4b78D40EBa4",
+  "notaries": [
+    {
+      "address": "0xF3f557beFa3703e6A88124Af5fCaD28430682bb5",
+      "addTx": "0xc5e9dcbb6fa352153e4c0573b6b9425aa05820858300a89a0f61759c9ba2767d"
+    }
+  ],
+  "deployTx": "0xa1fa5a0759a6ce6557011a225b841b66940f90d4c054b57d6772e525b0cd6096",
+  "basescan": "https://sepolia.basescan.org/address/0xb1d1496a5b6cd853f1e472539af05b0c81c07c6c#code",
+  "compiler": {
+    "version": "0.8.24+commit.e11b9ed9",
+    "evmVersion": "cancun",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "license": "MIT"
+  },
+  "abi": "deployments/LastWord.abi.json",
+  "deployBlock": 62473722,
+  "verified": {
+    "blockscout": true,
+    "sourcify": true,
+    "basescan": true
+  }
+}
